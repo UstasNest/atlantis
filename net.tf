@@ -4,7 +4,7 @@ resource "yandex_vpc_network" "net132" {
 }
 
 # Создать в VPC subnet, зона a
-resource "yandex_vpc_subnet" "sub-a12" {
+resource "yandex_vpc_subnet" "sub-a121" {
   name = "subnet-a"
   zone           = "ru-central1-a"
   network_id     = "${yandex_vpc_network.net.id}"
