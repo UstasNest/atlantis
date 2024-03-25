@@ -1,5 +1,5 @@
 # пустая VPC
-resource "yandex_vpc_network" "net" {
+resource "yandex_vpc_network" "net1" {
   name = "network"
 }
 
